@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    min-height: 100%;
+}
+header{
+    background-color: #460065;
+    padding: 10px 20px;
+}
+.nav_buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav_buttons a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+.nav_buttons a:hover{
+    color: #D5B268;
+}
