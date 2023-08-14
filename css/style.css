@@ -3,6 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
   min-height: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 header {
   background-color: #460065;
@@ -27,6 +28,15 @@ main {
   display: flex;
   justify-content: center;
   padding: 50px 0px;
+}
+.mainStage{
+  padding: 0px 15px;
+}
+.stageDivider{
+  border-top-color: #700000;
+  border-left-color: #700000;
+  border-bottom-color: red;
+  border-right-color: red;
 }
 @media screen and (max-width: 575px) {
   .mainLogo{
