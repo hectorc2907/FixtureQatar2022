@@ -79,6 +79,10 @@ main {
   .mainLogo img {
     max-width: 75%;
   }
+  .groupContainer{
+    min-width:100%;
+    max-width:100%;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
   .mainLogo {
@@ -86,6 +90,10 @@ main {
   }
   .mainLogo img {
     max-width: 75%;
+  }
+  .groupContainer{
+    min-width:100%;
+    max-width:100%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
