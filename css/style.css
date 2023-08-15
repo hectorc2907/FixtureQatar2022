@@ -3,7 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
   min-height: 100%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 header {
   background-color: #460065;
@@ -29,17 +29,51 @@ main {
   justify-content: center;
   padding: 50px 0px;
 }
-.mainStage{
+.mainStage {
   padding: 0px 15px;
 }
-.stageDivider{
+.stageDivider {
   border-top-color: #700000;
   border-left-color: #700000;
   border-bottom-color: red;
   border-right-color: red;
+  margin: 10px 0px;
+}
+.groupsContainer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.groupContainer {
+  padding: 0px 5px;
+  margin-bottom: 10px;
+}
+.groupTittle {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+  padding: 5px 0px;
+}
+.gameContainerA {
+  background-color: #F8F8FF;
+}
+.gameContainerB{
+  background-color: white;
+}
+.time-stadium {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.game {
+  padding: 0px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 @media screen and (max-width: 575px) {
-  .mainLogo{
+  .mainLogo {
     padding: 25px 0px;
   }
   .mainLogo img {
@@ -47,7 +81,7 @@ main {
   }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
-  .mainLogo{
+  .mainLogo {
     padding: 25px 0px;
   }
   .mainLogo img {
@@ -55,10 +89,14 @@ main {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .mainLogo{
+  .mainLogo {
     padding: 25px 0px;
   }
   .mainLogo img {
+    max-width: 50%;
+  }
+  .groupContainer{
+    min-width:50%;
     max-width: 50%;
   }
 }
@@ -66,14 +104,26 @@ main {
   .mainLogo img {
     max-width: 50%;
   }
+  .groupContainer{
+    min-width: 33%;
+    max-width: 33%;
+  }
 }
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
   .mainLogo img {
     max-width: 50%;
   }
+  .groupContainer{
+    min-width: 33%;
+    max-width: 33%;
+  }
 }
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 1400px) {
   .mainLogo img {
     max-width: 50%;
+  }
+  .groupContainer{
+    min-width: 33%;
+    max-width: 33%;
   }
 }
