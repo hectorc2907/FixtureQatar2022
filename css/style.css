@@ -83,6 +83,22 @@ main {
     min-width:100%;
     max-width:100%;
   }
+  .time-stadium{
+    flex-direction: column;
+    text-align: center;
+  }
+  .game{
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .matchResult{
+    text-align: center;
+    order: 1;
+    width: 100%;
+    margin-top: 5px 0px;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
   .mainLogo {
@@ -94,6 +110,22 @@ main {
   .groupContainer{
     min-width:100%;
     max-width:100%;
+  }
+  .time-stadium{
+    flex-direction: column;
+    text-align: center;
+  }
+  .game{
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .matchResult{
+    text-align: center;
+    order: 1;
+    width: 100%;
+    margin: 5px 0px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -107,6 +139,22 @@ main {
     min-width:50%;
     max-width: 50%;
   }
+  .time-stadium{
+    flex-direction: column;
+    text-align: center;
+  }
+  .game{
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .matchResult{
+    text-align: center;
+    order: 1;
+    width: 100%;
+    margin: 5px 0px;
+  }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .mainLogo img {
@@ -115,6 +163,22 @@ main {
   .groupContainer{
     min-width: 33%;
     max-width: 33%;
+  }
+  .time-stadium{
+    flex-direction: column;
+    text-align: center;
+  }
+  .game{
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .matchResult{
+    text-align: center;
+    order: 1;
+    width: 100%;
+    margin: 5px 0px;
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -131,7 +195,7 @@ main {
     max-width: 50%;
   }
   .groupContainer{
-    min-width: 33%;
-    max-width: 33%;
+    min-width: 25%;
+    max-width: 25%;
   }
 }
