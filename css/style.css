@@ -39,7 +39,7 @@ main {
   border-right-color: red;
   margin: 10px 0px;
 }
-.groupsContainer{
+.groupsContainer {
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
@@ -56,9 +56,9 @@ main {
   padding: 5px 0px;
 }
 .gameContainerA {
-  background-color: #F8F8FF;
+  background-color: #f8f8ff;
 }
-.gameContainerB{
+.gameContainerB {
   background-color: white;
 }
 .time-stadium {
@@ -72,6 +72,31 @@ main {
   justify-content: space-between;
   align-items: center;
 }
+.roundOf16 {
+  padding: 0px 15px;
+}
+.gamesContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.gameContainer {
+  padding: 0px 5px;
+  margin-bottom: 10px;
+}
+.gameContainerColor{
+  background-color: white;
+  border-radius: 10px;
+  padding: 0px 10px;
+}
+.team {
+  display: flex;
+  align-items: center;
+}
+.team img {
+  margin-right: 20px;
+}
 @media screen and (max-width: 575px) {
   .mainLogo {
     padding: 25px 0px;
@@ -79,25 +104,29 @@ main {
   .mainLogo img {
     max-width: 75%;
   }
-  .groupContainer{
-    min-width:100%;
-    max-width:100%;
+  .groupContainer {
+    min-width: 100%;
+    max-width: 100%;
   }
-  .time-stadium{
+  .time-stadium {
     flex-direction: column;
     text-align: center;
   }
-  .game{
+  .game {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
     flex-wrap: wrap;
   }
-  .matchResult{
+  .matchResult {
     text-align: center;
     order: 1;
     width: 100%;
     margin-top: 5px 0px;
+  }
+  .gameContainer {
+    min-width: 100%;
+    max-width: 100%;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -107,25 +136,29 @@ main {
   .mainLogo img {
     max-width: 75%;
   }
-  .groupContainer{
-    min-width:100%;
-    max-width:100%;
+  .groupContainer {
+    min-width: 100%;
+    max-width: 100%;
   }
-  .time-stadium{
+  .time-stadium {
     flex-direction: column;
     text-align: center;
   }
-  .game{
+  .game {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
     flex-wrap: wrap;
   }
-  .matchResult{
+  .matchResult {
     text-align: center;
     order: 1;
     width: 100%;
     margin: 5px 0px;
+  }
+  .gameContainer {
+    min-width: 100%;
+    max-width: 100%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -135,66 +168,82 @@ main {
   .mainLogo img {
     max-width: 50%;
   }
-  .groupContainer{
-    min-width:50%;
+  .groupContainer {
+    min-width: 50%;
     max-width: 50%;
   }
-  .time-stadium{
+  .time-stadium {
     flex-direction: column;
     text-align: center;
   }
-  .game{
+  .game {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
     flex-wrap: wrap;
   }
-  .matchResult{
+  .matchResult {
     text-align: center;
     order: 1;
     width: 100%;
     margin: 5px 0px;
+  }
+  .gameContainer {
+    min-width: 50%;
+    max-width: 50%;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .mainLogo img {
     max-width: 50%;
   }
-  .groupContainer{
+  .groupContainer {
     min-width: 33%;
     max-width: 33%;
   }
-  .time-stadium{
+  .time-stadium {
     flex-direction: column;
     text-align: center;
   }
-  .game{
+  .game {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
     flex-wrap: wrap;
   }
-  .matchResult{
+  .matchResult {
     text-align: center;
     order: 1;
     width: 100%;
     margin: 5px 0px;
+  }
+  .gameContainer {
+    min-width: 50%;
+    max-width: 50%;
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
   .mainLogo img {
     max-width: 50%;
   }
-  .groupContainer{
+  .groupContainer {
     min-width: 33%;
     max-width: 33%;
+  }
+  .gameContainer {
+    max-width: 50%;
+    min-width: 50%;
   }
 }
 @media screen and (min-width: 1400px) {
   .mainLogo img {
     max-width: 50%;
   }
-  .groupContainer{
+  .groupContainer {
+    min-width: 25%;
+    max-width: 25%;
+  }
+  .gameContainer {
     min-width: 25%;
     max-width: 25%;
   }
