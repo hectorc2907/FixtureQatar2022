@@ -106,6 +106,9 @@ main {
 .thirdPlace {
   padding: 0px 15px;
 }
+.finalRound{
+  padding: 0px 15px;
+}
 @media screen and (max-width: 575px) {
   .mainLogo {
     padding: 25px 0px;
