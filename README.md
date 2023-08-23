@@ -2,7 +2,7 @@
 
 Primer pagina creada con HTML5 y CSS3, en el cual se practica sus etiquetas junto con el modelo de estilos con flexbox, uso de mediaqueries con la finalidad de manejar un modelo responsive.
 
-[](https://github.com/hectorc2907/FixtureQatar2022/blob/lastDetails/img/logoReadme.PNG)
+![](https://github.com/hectorc2907/FixtureQatar2022/blob/lastDetails/img/logoReadme.PNG)
 
 ## Tabla de Contenidos
 
@@ -22,16 +22,16 @@ El objetivo del proyecto como bien se menciono era la practica de las etiquetas 
 
 ## Características
 
--Prueba de las etiquetas HTML5, entre usos de clases y id.
--Prueba de los etilos, principalmente el uso de flexbox
--Prueba de las mediaqueries para un uso responsive en multiples dispositivos
+-Prueba de las etiquetas HTML5, entre usos de clases y id.  
+-Prueba de los etilos, principalmente el uso de flexbox.  
+-Prueba de las mediaqueries para un uso responsive en multiples dispositivos.  
 
 ## Demostración
 
-[Enlace a la pagina](fixture2022hac.netlify.app)
-[Dispositivos Pequeños](https://github.com/hectorc2907/FixtureQatar2022/blob/lastDetails/img/capturas/Small.PNG)
-[Dispositivos Medianos](https://github.com/hectorc2907/FixtureQatar2022/blob/lastDetails/img/capturas/Medium.PNG)
-[Dispositivos Grandes](https://github.com/hectorc2907/FixtureQatar2022/blob/lastDetails/img/capturas/Large.PNG)
+[Enlace a la pagina](https://fixture2022hac.netlify.app/)  
+![Dispositivos Pequeños](https://github.com/hectorc2907/FixtureQatar2022/blob/lastDetails/img/capturas/Small.PNG)  
+![Dispositivos Medianos](https://github.com/hectorc2907/FixtureQatar2022/blob/lastDetails/img/capturas/Medium.PNG)  
+![Dispositivos Grandes](https://github.com/hectorc2907/FixtureQatar2022/blob/lastDetails/img/capturas/Large.PNG)  
 
 ## Instalación
 
