@@ -54,4 +54,4 @@ cd FixtureQatar2022
 ## Contacto
 
 Correo Electronico : hectorc2907@gmail.com    
-LinkDin : www.linkedin.com/in/hector-clessi
+LinkdIn : www.linkedin.com/in/hector-clessi
