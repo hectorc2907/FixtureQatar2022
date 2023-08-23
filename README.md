@@ -30,10 +30,10 @@ El objetivo del proyecto como bien se menciono era la practica de las etiquetas 
 
 Enlace:
 [Qatar 2022](https://fixture2022hac.netlify.app/)  
-Dispositivos Pequeños
+Dispositivos Pequeños  
 ![Dispositivos Pequeños](https://github.com/hectorc2907/FixtureQatar2022/blob/lastDetails/img/capturas/Small.PNG)  
-Dispositvos Medianos
-![Dispositivos Medianos](https://github.com/hectorc2907/FixtureQatar2022/blob/lastDetails/img/capturas/Medium.PNG)
+Dispositvos Medianos  
+![Dispositivos Medianos](https://github.com/hectorc2907/FixtureQatar2022/blob/lastDetails/img/capturas/Medium.PNG)  
 Dispositivos Grandes  
 ![Dispositivos Grandes](https://github.com/hectorc2907/FixtureQatar2022/blob/lastDetails/img/capturas/Large.PNG)  
 
