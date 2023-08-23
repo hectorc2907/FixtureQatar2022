@@ -28,31 +28,28 @@ El objetivo del proyecto como bien se menciono era la practica de las etiquetas 
 
 ## Demostración
 
-[Enlace a la pagina](https://fixture2022hac.netlify.app/)  
+Enlace:
+[Qatar 2022](https://fixture2022hac.netlify.app/)  
+Dispositivos Pequeños
 ![Dispositivos Pequeños](https://github.com/hectorc2907/FixtureQatar2022/blob/lastDetails/img/capturas/Small.PNG)  
-![Dispositivos Medianos](https://github.com/hectorc2907/FixtureQatar2022/blob/lastDetails/img/capturas/Medium.PNG)  
+Dispositvos Medianos
+![Dispositivos Medianos](https://github.com/hectorc2907/FixtureQatar2022/blob/lastDetails/img/capturas/Medium.PNG)
+Dispositivos Grandes  
 ![Dispositivos Grandes](https://github.com/hectorc2907/FixtureQatar2022/blob/lastDetails/img/capturas/Large.PNG)  
 
 ## Instalación
 
-Indica los pasos necesarios para instalar y configurar el proyecto. Proporciona ejemplos de comandos si es necesario.
-
-## Uso
-
-Ofrece ejemplos y guías para que los usuarios comprendan cómo usar tu proyecto. Incluye ejemplos de código si es relevante.
-
-## Contribuciones
-
-Explica cómo otros desarrolladores pueden contribuir al proyecto. Describe el proceso de solicitud de extracción y los lineamientos para contribuir.
-
-## Licencia
-
-Indica claramente bajo qué licencia se distribuye el proyecto. Proporciona un enlace al archivo LICENSE para más detalles.
+1. **Clona el Repositorio**: Abre tu terminal y navega a la ubicación donde deseas guardar el proyecto. Luego, ejecuta el siguiente comando para clonar el repositorio:
+    
+git clone : https://github.com/hectorc2907/FixtureQatar2022.git
+    
+2. **Navega al Directorio del Proyecto**: Ingresa al directorio del proyecto usando el siguiente comando:
+    
+cd FixtureQatar2022
+    
+3. **Abre el Archivo HTML**: Abre el archivo `index.html` en tu navegador web favorito para ver el proyecto en acción.
 
 ## Contacto
 
-Proporciona información de contacto, como dirección de correo electrónico o enlaces a tus perfiles en redes sociales.
-
----
-
-**Nota:** Considera agregar badges (emblemas) que muestren el estado del proyecto, como estado de construcción, cobertura de pruebas, etc.
+Correo Electronico : hectorc2907@gmail.com    
+LinkDin : www.linkedin.com/in/hector-clessi
