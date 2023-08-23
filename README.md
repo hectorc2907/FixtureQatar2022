@@ -10,9 +10,6 @@ Primer pagina creada con HTML5 y CSS3, en el cual se practica sus etiquetas junt
 - [Características](#características)
 - [Demostración](#demostración)
 - [Instalación](#instalación)
-- [Uso](#uso)
-- [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
 - [Contacto](#contacto)
 
 ## Introducción
@@ -41,7 +38,7 @@ Dispositivos Grandes
 
 1. **Clona el Repositorio**: Abre tu terminal y navega a la ubicación donde deseas guardar el proyecto. Luego, ejecuta el siguiente comando para clonar el repositorio:
     
-git clone : https://github.com/hectorc2907/FixtureQatar2022.git
+git clone https://github.com/hectorc2907/FixtureQatar2022.git
     
 2. **Navega al Directorio del Proyecto**: Ingresa al directorio del proyecto usando el siguiente comando:
     
