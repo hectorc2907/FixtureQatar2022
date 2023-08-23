@@ -16,21 +16,21 @@
     />
   </head>
   <body>
-    <header class="">
+    <header class="nav" id="nav">
       <nav class="nav_buttons">
-        <a href="#">Fase de Grupos</a>
-        <a href="#">Octavos de Final</a>
-        <a href="#">Cuartos de Final</a>
-        <a href="#">Semifinal</a>
-        <a href="#">3er Puesto</a>
-        <a href="#">Final</a>
+        <a href="#mainStage">Fase de Grupos</a>
+        <a href="#roundOf16">Octavos de Final</a>
+        <a href="#quarterFinals">Cuartos de Final</a>
+        <a href="#semiFinals">Semifinal</a>
+        <a href="#thirdPlace">3er Puesto</a>
+        <a href="#finalRound">Final</a>
       </nav>
     </header>
     <main>
-      <section class="mainLogo">
+      <section class="mainLogo" id="mainLogo">
         <img src="./img/QatarHorizontal.png" alt="Qatar2022Logo" />
       </section>
-      <section class="mainStage">
+      <section class="mainStage" id="mainStage">
         <h2 class="stage">Fase de Grupos</h2>
         <hr class="stageDivider" />
         <div class="groupsContainer">
@@ -1116,7 +1116,7 @@
           </div>
         </div>
       </section>
-      <section class="roundOf16">
+      <section class="roundOf16" id="roundOf16">
         <h2 class="stage">Octavos de Final</h2>
         <hr class="stageDivider" />
         <div class="gamesContainer">
@@ -1289,7 +1289,7 @@
             </div>
           </div>
       </section>
-      <section class="quarterFinals">
+      <section class="quarterFinals" id="quarterFinals">
         <h2 class="stage">Cuartos de Final</h2>
         <hr class="stageDivider" />
         <div class="gamesContainer">
@@ -1378,7 +1378,7 @@
             </div>
           </div>
       </section>
-      <section class="semiFinals">
+      <section class="semiFinals" id="semiFinals">
         <h2 class="stage">Semi-Finales</h2>
         <hr class="stageDivider" />
         <div class="gamesContainer">
@@ -1425,7 +1425,7 @@
             </div>
           </div>
       </section>
-      <section class="thirdPlace">
+      <section class="thirdPlace" id="thirdPlace">
         <h2 class="stage">Tercer Puesto</h2>
         <hr class="stageDivider" />
         <div class="gamesContainer">
@@ -1451,7 +1451,7 @@
             </div>
           </div>
       </section>
-      <section class="finalRound">
+      <section class="finalRound" id="finalRound">
         <h2 class="stage">Final</h2>
         <hr class="stageDivider" />
         <div class="gamesContainer">
@@ -1479,7 +1479,7 @@
       </section>
       <section class="button">
         <div class="upButton">
-          <p><b>(<img src="./img/flecha-hacia-arriba.png" alt="upArrow">Volver Arriba)</b></p>
+          <p><a href="#nav"><b>(<img src="./img/flecha-hacia-arriba.png" alt="upArrow">Volver Arriba)</b></a></p>
         </div>
       </section>
     </main>
