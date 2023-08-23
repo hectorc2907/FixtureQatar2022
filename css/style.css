@@ -1,0 +1,283 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  min-height: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+header {
+  background-color: #460065;
+  padding: 30px 20px;
+}
+.nav_buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav_buttons a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+}
+.nav_buttons a:hover {
+  color: #d5b268;
+}
+main {
+  background-color: #eeeee4;
+}
+.mainLogo {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px;
+}
+.mainStage {
+  padding: 0px 15px;
+  margin-top: 70px;
+}
+.stageDivider {
+  border-top-color: #700000;
+  border-left-color: #700000;
+  border-bottom-color: red;
+  border-right-color: red;
+  margin: 10px 0px;
+}
+.groupsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.groupContainer {
+  padding: 0px 5px;
+  margin-bottom: 10px;
+}
+.groupTittle {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+  padding: 5px 0px;
+}
+.gameContainerA {
+  background-color: #f8f8ff;
+}
+.gameContainerB {
+  background-color: white;
+}
+.time-stadium {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.game {
+  padding: 0px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.roundOf16 {
+  padding: 0px 15px;
+}
+.gamesContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.gameContainer {
+  padding: 0px 5px;
+  margin-bottom: 10px;
+}
+.gameContainerColor{
+  background-color: white;
+  border-radius: 10px;
+  padding: 0px 10px;
+}
+.team {
+  display: flex;
+  align-items: center;
+}
+.team img {
+  margin-right: 20px;
+}
+.quarterFinals {
+  padding: 0px 15px;
+}
+.semiFinals {
+  padding: 0px 15px;
+}
+.thirdPlace {
+  padding: 0px 15px;
+}
+.finalRound{
+  padding: 0px 15px;
+}
+.button{
+  padding: 20px 0px;
+  text-align: center;
+}
+.upButton p a{
+  color: black;
+  text-decoration: none;
+}
+.upButton p a:hover{
+  color: #d5b268;
+}
+footer{
+  background-color: black;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+@media screen and (max-width: 575px) {
+  .mainLogo {
+    padding: 25px 0px;
+  }
+  .mainLogo img {
+    max-width: 75%;
+  }
+  .groupContainer {
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .time-stadium {
+    flex-direction: column;
+    text-align: center;
+  }
+  .game {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .matchResult {
+    text-align: center;
+    order: 1;
+    width: 100%;
+    margin-top: 5px 0px;
+  }
+  .gameContainer {
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .mainLogo {
+    padding: 25px 0px;
+  }
+  .mainLogo img {
+    max-width: 75%;
+  }
+  .groupContainer {
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .time-stadium {
+    flex-direction: column;
+    text-align: center;
+  }
+  .game {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .matchResult {
+    text-align: center;
+    order: 1;
+    width: 100%;
+    margin: 5px 0px;
+  }
+  .gameContainer {
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .mainLogo {
+    padding: 25px 0px;
+  }
+  .mainLogo img {
+    max-width: 50%;
+  }
+  .groupContainer {
+    min-width: 50%;
+    max-width: 50%;
+  }
+  .time-stadium {
+    flex-direction: column;
+    text-align: center;
+  }
+  .game {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .matchResult {
+    text-align: center;
+    order: 1;
+    width: 100%;
+    margin: 5px 0px;
+  }
+  .gameContainer {
+    min-width: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .mainLogo img {
+    max-width: 50%;
+  }
+  .groupContainer {
+    min-width: 33%;
+    max-width: 33%;
+  }
+  .time-stadium {
+    flex-direction: column;
+    text-align: center;
+  }
+  .game {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .matchResult {
+    text-align: center;
+    order: 1;
+    width: 100%;
+    margin: 5px 0px;
+  }
+  .gameContainer {
+    min-width: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  .mainLogo img {
+    max-width: 50%;
+  }
+  .groupContainer {
+    min-width: 33%;
+    max-width: 33%;
+  }
+  .gameContainer {
+    max-width: 50%;
+    min-width: 50%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .mainLogo img {
+    max-width: 50%;
+  }
+  .groupContainer {
+    min-width: 25%;
+    max-width: 25%;
+  }
+  .gameContainer {
+    min-width: 25%;
+    max-width: 25%;
+  }
+}
