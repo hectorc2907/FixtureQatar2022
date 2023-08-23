@@ -8,6 +8,7 @@ Primer pagina creada con HTML5 y CSS3, en el cual se practica sus etiquetas junt
 
 - [Introducción](#introducción)
 - [Características](#características)
+- [Tecnologías](#tecnologías)
 - [Demostración](#demostración)
 - [Instalación](#instalación)
 - [Contacto](#contacto)
@@ -23,6 +24,10 @@ El objetivo del proyecto como bien se menciono era la practica de las etiquetas 
 -Prueba de los etilos, principalmente el uso de flexbox.  
 -Prueba de las mediaqueries para un uso responsive en multiples dispositivos.  
 
+## Tecnologías
+
+[![HTML](https://img.shields.io/badge/-HTML-orange?style=flat&logo=html5&logoColor=white)](https://www.w3.org/TR/html52/)  
+[![CSS](https://img.shields.io/badge/-CSS-blue?style=flat&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/)  
 ## Demostración
 
 Enlace:
