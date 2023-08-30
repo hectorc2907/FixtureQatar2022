@@ -15,7 +15,6 @@ Primer pagina creada con HTML5 y CSS3, en el cual se practica sus etiquetas junt
 
 ## Introducción
 
-Una introducción más detallada sobre el propósito y objetivos del proyecto.
 El objetivo del proyecto como bien se menciono era la practica de las etiquetas y principalmente el uso de flexbox y mediaqueries para poder moldear el proyecto en todos los dispositivos posibles sin la necesidad de utilizar bootstrap u otras herramientas
 
 ## Características
